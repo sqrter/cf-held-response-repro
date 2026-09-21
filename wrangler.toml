@@ -1,0 +1,10 @@
+name = "cf-held-response-repro"
+main = "src/index.ts"
+compatibility_date = "2026-01-01"
+workers_dev = true
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+invocation_logs = true
+persist = true

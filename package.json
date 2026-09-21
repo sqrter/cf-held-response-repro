@@ -1,0 +1,12 @@
+{
+  "name": "cf-held-response-repro",
+  "private": true,
+  "version": "0.2.0",
+  "description": "Minimal repro: held response + cross-request async work -> next held request silently canceled on Cloudflare Workers",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
